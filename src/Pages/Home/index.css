@@ -1,0 +1,26 @@
+.main h1 {
+  font-size: 61px;
+  font-family: "Courier New", Courier, monospace;
+}
+.button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  padding: 15px 10px;
+  border-radius: 10px;
+  background-color: blue;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border: 3px solid blue;
+  transition: all 0.5s;
+}
+.link:hover {
+  background-color: rgb(145, 145, 255);
+  color: black;
+}
